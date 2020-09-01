@@ -1,0 +1,118 @@
+body{
+	background-image:url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&w=1000&q=80);
+}
+.header{
+	width:100%;
+	height:10%;
+	border-style:groove;
+	
+}
+.header div{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	
+}
+.search{
+	width:30%;
+	height:35%;
+	background-color:white;
+	border-style:groove;
+	margin:2%;
+	padding:1%;
+
+
+	border-style:none;
+
+}
+.navigation{
+	width:100%;
+	height:30%;
+
+	border-style:groove;
+	
+	background-color:#515A5A;
+}
+.search form input{
+	width:200px;
+	height:30px;
+	border-style:none;
+}
+.body{
+	width:100%;
+	height:80%;
+	border-style:groove;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	
+	background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-smoke-bb-5_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c8347a73d6427dda5d03bd1100c39354);
+	color:white;
+}
+.footer{
+	width:100%;
+	height:45px;
+	border-style:groove;
+	background-color:#FF5733;
+	color:white;
+	 
+}
+img{
+	width:20%;
+	height:68px;
+}
+.body div{
+	width:28%;
+	height:90%;
+	margin:1%;
+	padding:1%;
+	background-color: black;
+	border-style:groove;
+}
+.body img{
+	width: 100%;
+	height:68%;
+	opacity:0.5;
+	align-items:center;
+	padding-right:;
+
+}
+.navigation a button{
+	background-color:#2874A6;
+	color:white;
+	margin:1%;
+	height:78%;
+	padding:1%;
+	border-style:none;
+	border-radius:10px;
+}
+p{
+	text-align:center;
+	padding-bottom:2%;
+}
+.body div button{
+	background-color:blue;
+	color:white;
+	border-radius:10px;
+	border-style:none;
+	text-align:center;
+}
+.body div img:hover{
+	transition:all 2s ease;
+	opacity:1;
+	width: 90%;
+	height:60%;
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+	.body {
+		flex-direction:column;
+	}
+	.body div{
+		width:95%;
+	}
+}
+@media only screen and (min-width:768px;) and (max-width:1023px){
+	.body{
+		flex-direction:column;
+	}
+}
